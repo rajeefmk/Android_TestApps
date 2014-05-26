@@ -1,0 +1,7 @@
+INDEX VERSION 1.126+/media/Development-Coaching-Startup/1.Jaaga/Projects/StudyProjects_Android/.metadata/.plugins/org.eclipse.jdt.core
+780750558.index
+3405341726.index
+1971168604.index
+1415693123.index
+1472727739.index
+765453901.index

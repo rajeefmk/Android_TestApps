@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks"/>
+<fullyQualifiedTypeName name="com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener"/>
+<fullyQualifiedTypeName name="android.provider.Contacts.People"/>
+<fullyQualifiedTypeName name="com.google.android.gms.plus.People"/>
+</qualifiedTypeNameHistroy>
