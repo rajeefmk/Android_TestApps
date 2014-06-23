@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomListViewBaseAdapter</string>
+    <string name="descImage">Icon For each row item</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview1">Main Heading</string>
+	<string name="textView2">Sub Heading</string>
+</resources>
