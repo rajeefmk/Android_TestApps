@@ -10,9 +10,12 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
@@ -43,6 +46,23 @@ public class MainActivity extends Activity {
 		
 		codeLearnLessons.setAdapter(mMyAdapter);
 		Log.i(TAG, "mMyAdapter is set to ListView codeLearnLessons");
+		
+		codeLearnLessons.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+					long arg3) {
+				
+				codeLearnChapter chapter = mMyAdapter.getObjectFromList(arg2);
+				
+				Toast.makeText(MainActivity.this, chapter.chapterName, Toast.LENGTH_SHORT).show();
+				
+			}
+			
+			
+			
+		});
+		
 	}
 	
 	public class MyAdapter extends BaseAdapter{
@@ -99,6 +119,12 @@ public class MainActivity extends Activity {
 			
 			return arg1;
 		} 
+		
+		public codeLearnChapter getObjectFromList(int position){
+			
+			
+			return codeLearnChapterList.get(position);
+		}
 		
 	}
 	
